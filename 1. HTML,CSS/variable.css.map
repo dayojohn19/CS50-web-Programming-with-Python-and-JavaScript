@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,EAAE,CAAA;EACE,SAAS,EAAE,IAAI;EACf,KAAK,EAJF,KAAK;CAKX;;AAED,AAAA,EAAE,CAAA;EACE,SAAS,EAAE,IAAI;EACf,KAAK,EATF,KAAK;CAUX",
+    "sources": [
+        "variable.scss"
+    ],
+    "names": [],
+    "file": "variable.css"
+}

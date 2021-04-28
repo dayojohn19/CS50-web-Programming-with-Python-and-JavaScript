@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        <div>
+            <input type="submit">
+            <input type="text" placeholder="Full Name" name="name">
+            <input type="password"  placeholder="Password" name="password">
+        </div>
+        <div>
+            COLOR
+            <input name="color" type="radio" value="red">red
+            <input name="color" type="radio" value="green">green
+            <input name="color" type="radio" value="blue">blue 
+            <input name="color" type="radio" value="other">Other
+        </div>
+        <div>   
+            <input name="country" list="countries"  placeholder="Country">
+            <datalist id="countries">
+                <option value="Afghanistan">
+                <option value="Albania">
+                <option value="Philippines">
+                </option>
+                </option>
+                </option>
+            </datalist>
+        </div>
+
+    </form>
+</body>
+</html>
