@@ -1,0 +1,25 @@
+to create new app, /*insert terminal directory inside projct*/
+
+python manage.py startapp  <name of new app>
+
+open settings.py browse to INSTALLED_APPS add your new app below
+
+go o urls.py  under urlpatterns = 
+
+
+
+Then go to your new app
+add>> 
+urls.py
+<<
+
+type>>
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    path("", views.index, name="index"),
+]
+<<
+go to views.py>>
+
