@@ -1,5 +1,5 @@
 Create New Project
 type code below on terminal
 >>>>
-python -m django startproject
+python -m django startproject "name"
 <<<<
